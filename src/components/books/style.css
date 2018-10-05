@@ -1,0 +1,101 @@
+.navigation{
+    position: fixed;
+    left: 0;
+    top:0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: black;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bookDetails{
+    margin: 80px 30px;
+    float: left;
+    text-align: left;
+}
+
+.bookDetails img{
+    width: 300px;
+    float: left;
+}
+
+.bookDetails .details{
+    float: left;
+    margin: 0 30px;
+    width: 1000px;
+}
+
+.bookDetails .details *{
+    display: block;
+}
+
+
+.bookDetails .details p b{
+    display: inline;
+}
+
+.bookList{
+    margin-top: 80px;
+}
+
+.bookList input{
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+}
+
+.bookList button{
+    height: 55px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bookListItems{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 13%;
+    align-items: flex-start;
+}
+
+.bookListItems .bookItem{
+    height: 280px;
+    flex: 0 0 221px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+} 
+
+.bookListItems .bookItem  * {
+    float: left;
+}
+
+.bookListItems .bookItem .book .name{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 92px;
+    text-align: left;
+}
+
+.bookListItems .bookItem a.link{
+    display: block;
+    width: 91%;
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.bookListItems .bookItem img{
+    height: 150px;
+}
+
+.bookDetails .link{
+    position: relative;
+    top: 400px;
+    left: -600px;
+}
